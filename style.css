@@ -1,0 +1,62 @@
+body {
+    background-color: #000000;
+    color: yellow;
+}
+.navbar {
+    background-color: #000000;
+    color: yellow;
+}
+.carousel {
+    padding: 0;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.blurb {
+    margin: 5%;
+    width: 75%;
+    height: auto;
+}
+.blurb-header {
+  margin-top: 5%;
+}
+.green-section {
+  background-color: #000000;
+  color: yellow;
+}
+.text-color {
+    color: yellow;
+}
+.footer {
+    background-color: #000000;
+    color: yellow;
+    border-radius: 0%;
+}
+i {
+      color: white;
+      margin: 0 15px;
+  }
+.jumbotron {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    padding: 270px 0;
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.title {
+    font-size: 5rem;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
