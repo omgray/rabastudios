@@ -59,4 +59,9 @@ i {
     text-align: center;
     vertical-align: middle;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background: -webkit-linear-gradient(rgb(182, 171, 20), rgb(255, 225, 124), rgb(180, 117, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+
 }
