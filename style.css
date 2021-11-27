@@ -1,6 +1,9 @@
-body { 
+body {
     background-color: #000000;
     color: yellow;
+}
+hr {
+    background-color: gray;
 }
 .navbar {
     background-color: #000000;
@@ -42,26 +45,41 @@ i {
     height: 100vh;
     width: 100vw;
     padding: 270px 0;
-    animation: fadeInAnimation ease 4s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+}
+.carousel-img {
+    height: auto;
+    width: 30%;
+    margin: auto;
+}
+.carousel-img-m {
+    height: auto;
+    width: 100%;
+    margin: auto;
 }
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
+        -webkit-transform:translateX(-200px);
+        -ms-transform:translateX(-200px);
+        transform:translateX(-200px)
     }
     100% {
         opacity: 1;
+        -webkit-transform:translateX(0);
+        -ms-transform:translateX(0);
+        transform:translateX(0)
     }
 }
 .title {
-    font-size: 5rem;
-    text-align: center;
-    vertical-align: middle;
+    font-size: 4rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    align-items: center;
     background: -webkit-linear-gradient(rgb(182, 171, 20), rgb(255, 225, 124), rgb(180, 117, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 500;
-
+    animation: fadeInAnimation ease 6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
